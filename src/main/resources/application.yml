@@ -1,5 +1,5 @@
 spring:
     data:
         mongodb:
-            uri: mongodb+srv://shashankmende88:iHZ6oN37DeloZOfG@cluster0.emtd3go.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
+            uri: mongodb+srv://shashankmende88:iHZ6oN37DeloZOfG@cluster0.emtd3go.mongodb.net/patient?retryWrites=true&w=majority&appName=Cluster0
             database    :   patient
