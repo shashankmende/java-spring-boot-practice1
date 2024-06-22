@@ -1,25 +1,29 @@
 
 .App {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  /* height: 100vh; */
   /* background-color: antiquewhite;  */
+  /* border: 1px solid black; */
+ margin: auto;
+  
 }
 
 form{
   /* background-color: rgb(150, 179, 219); */
-  border: 1px solid black;
+  
   box-shadow: 1px 1px 7px rgb(157, 156, 156);
   backdrop-filter: blur(20px);
   border-radius: 10px;
-  padding: 10px 30px;
+  padding: 10px 40px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 400px;
-
-
+  width: 500px;
+  height: 500px;
+  /* margin-top: 200px; */
 }
 
 
@@ -33,14 +37,57 @@ input {
 }
 
 button{
-  background-color: rgb(31, 68, 229);
+  
   border: none;
   font-size: 18px;
-  color: black !important;
+  color:white;
   padding: 10px;
   border-radius: 10px;
   cursor: pointer;
   width: 150px;
   margin: 15px;
   font-weight: bold !important;
+  font-size: 20px;
 }
+
+.buttons-container {
+  display: flex;
+  width: 300px;
+  justify-content: space-between;
+  margin-top: 80px;
+}
+
+.activeTabCss {
+  background-color: #0E86D4;
+}
+
+.inActiveTabCss {
+  background-color: none;
+  color: black;
+}
+
+.first_name_container {
+display: block;
+  
+}
+
+.first_name_foucs {
+  color: red;
+  
+  margin-top: -36px;
+  /* font-family: sans-serif; */
+  margin-left: 20px;
+  font-size: 14px;
+
+}
+
+.second_name_focus{
+  color: red;
+  margin-top: -16px;
+  font-size: 14px;
+  margin-left: 20px;
+}
+
+/* .email_focus {
+  
+} */
